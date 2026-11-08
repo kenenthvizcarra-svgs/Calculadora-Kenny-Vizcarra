@@ -47,22 +47,28 @@
             bttnDividir = new Button();
             bttnLimpiar = new Button();
             bttnBorrar = new Button();
+            panel1 = new Panel();
+            panel2 = new Panel();
+            panel3 = new Panel();
+            panel1.SuspendLayout();
+            panel2.SuspendLayout();
+            panel3.SuspendLayout();
             SuspendLayout();
             // 
             // txtPantalla
             // 
             txtPantalla.BackColor = Color.FromArgb(224, 224, 224);
             txtPantalla.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            txtPantalla.Location = new Point(57, 36);
+            txtPantalla.Location = new Point(24, 40);
             txtPantalla.Multiline = true;
             txtPantalla.Name = "txtPantalla";
-            txtPantalla.Size = new Size(453, 58);
+            txtPantalla.Size = new Size(496, 58);
             txtPantalla.TabIndex = 0;
             // 
             // bttn0
             // 
             bttn0.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            bttn0.Location = new Point(57, 396);
+            bttn0.Location = new Point(23, 266);
             bttn0.Name = "bttn0";
             bttn0.Size = new Size(77, 66);
             bttn0.TabIndex = 0;
@@ -72,7 +78,7 @@
             // bttn1
             // 
             bttn1.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            bttn1.Location = new Point(57, 300);
+            bttn1.Location = new Point(23, 184);
             bttn1.Name = "bttn1";
             bttn1.Size = new Size(77, 66);
             bttn1.TabIndex = 1;
@@ -82,7 +88,7 @@
             // bttn2
             // 
             bttn2.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            bttn2.Location = new Point(155, 300);
+            bttn2.Location = new Point(127, 184);
             bttn2.Name = "bttn2";
             bttn2.Size = new Size(77, 66);
             bttn2.TabIndex = 2;
@@ -92,7 +98,7 @@
             // bttn3
             // 
             bttn3.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            bttn3.Location = new Point(245, 300);
+            bttn3.Location = new Point(230, 184);
             bttn3.Name = "bttn3";
             bttn3.Size = new Size(77, 66);
             bttn3.TabIndex = 3;
@@ -102,7 +108,7 @@
             // bttn4
             // 
             bttn4.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            bttn4.Location = new Point(57, 214);
+            bttn4.Location = new Point(23, 93);
             bttn4.Name = "bttn4";
             bttn4.Size = new Size(77, 66);
             bttn4.TabIndex = 4;
@@ -112,7 +118,7 @@
             // bttn5
             // 
             bttn5.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            bttn5.Location = new Point(155, 214);
+            bttn5.Location = new Point(127, 93);
             bttn5.Name = "bttn5";
             bttn5.Size = new Size(77, 66);
             bttn5.TabIndex = 5;
@@ -122,7 +128,7 @@
             // bttn6
             // 
             bttn6.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            bttn6.Location = new Point(245, 214);
+            bttn6.Location = new Point(230, 93);
             bttn6.Name = "bttn6";
             bttn6.Size = new Size(77, 66);
             bttn6.TabIndex = 6;
@@ -132,7 +138,7 @@
             // bttn7
             // 
             bttn7.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            bttn7.Location = new Point(57, 130);
+            bttn7.Location = new Point(23, 9);
             bttn7.Name = "bttn7";
             bttn7.Size = new Size(77, 66);
             bttn7.TabIndex = 7;
@@ -142,7 +148,7 @@
             // bttn8
             // 
             bttn8.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            bttn8.Location = new Point(155, 130);
+            bttn8.Location = new Point(127, 9);
             bttn8.Name = "bttn8";
             bttn8.Size = new Size(77, 66);
             bttn8.TabIndex = 8;
@@ -152,7 +158,7 @@
             // bttn9
             // 
             bttn9.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            bttn9.Location = new Point(245, 130);
+            bttn9.Location = new Point(230, 9);
             bttn9.Name = "bttn9";
             bttn9.Size = new Size(77, 66);
             bttn9.TabIndex = 9;
@@ -162,7 +168,7 @@
             // bttnPunto
             // 
             bttnPunto.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            bttnPunto.Location = new Point(155, 396);
+            bttnPunto.Location = new Point(127, 266);
             bttnPunto.Name = "bttnPunto";
             bttnPunto.Size = new Size(77, 66);
             bttnPunto.TabIndex = 10;
@@ -173,7 +179,7 @@
             // bttnIgual
             // 
             bttnIgual.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            bttnIgual.Location = new Point(245, 396);
+            bttnIgual.Location = new Point(230, 266);
             bttnIgual.Name = "bttnIgual";
             bttnIgual.Size = new Size(77, 66);
             bttnIgual.TabIndex = 12;
@@ -185,7 +191,7 @@
             // 
             bttnSumar.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
             bttnSumar.ImageAlign = ContentAlignment.TopCenter;
-            bttnSumar.Location = new Point(337, 396);
+            bttnSumar.Location = new Point(335, 266);
             bttnSumar.Name = "bttnSumar";
             bttnSumar.Size = new Size(77, 66);
             bttnSumar.TabIndex = 13;
@@ -197,7 +203,7 @@
             // bttnRestar
             // 
             bttnRestar.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            bttnRestar.Location = new Point(337, 300);
+            bttnRestar.Location = new Point(335, 184);
             bttnRestar.Name = "bttnRestar";
             bttnRestar.Size = new Size(77, 66);
             bttnRestar.TabIndex = 14;
@@ -209,7 +215,7 @@
             // bttnMultiplicar
             // 
             bttnMultiplicar.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            bttnMultiplicar.Location = new Point(337, 214);
+            bttnMultiplicar.Location = new Point(335, 93);
             bttnMultiplicar.Name = "bttnMultiplicar";
             bttnMultiplicar.Size = new Size(77, 66);
             bttnMultiplicar.TabIndex = 15;
@@ -220,7 +226,7 @@
             // bttnDividir
             // 
             bttnDividir.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            bttnDividir.Location = new Point(337, 130);
+            bttnDividir.Location = new Point(335, 9);
             bttnDividir.Name = "bttnDividir";
             bttnDividir.Size = new Size(77, 66);
             bttnDividir.TabIndex = 16;
@@ -232,9 +238,9 @@
             // 
             bttnLimpiar.BackColor = Color.FromArgb(255, 192, 128);
             bttnLimpiar.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            bttnLimpiar.Location = new Point(433, 130);
+            bttnLimpiar.Location = new Point(24, 3);
             bttnLimpiar.Name = "bttnLimpiar";
-            bttnLimpiar.Size = new Size(77, 150);
+            bttnLimpiar.Size = new Size(91, 150);
             bttnLimpiar.TabIndex = 17;
             bttnLimpiar.Text = "C";
             bttnLimpiar.UseVisualStyleBackColor = false;
@@ -242,48 +248,78 @@
             // 
             // bttnBorrar
             // 
-            bttnBorrar.BackColor = Color.FromArgb(255, 128, 128);
+            bttnBorrar.BackColor = Color.Red;
             bttnBorrar.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            bttnBorrar.Location = new Point(433, 300);
+            bttnBorrar.Location = new Point(21, 170);
             bttnBorrar.Name = "bttnBorrar";
-            bttnBorrar.Size = new Size(77, 162);
+            bttnBorrar.Size = new Size(94, 162);
             bttnBorrar.TabIndex = 18;
             bttnBorrar.Text = "CE";
             bttnBorrar.UseVisualStyleBackColor = false;
             bttnBorrar.Click += bttnBorrar_Click;
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.FromArgb(255, 128, 128);
+            panel1.Controls.Add(bttnLimpiar);
+            panel1.Controls.Add(bttnBorrar);
+            panel1.Location = new Point(420, 124);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(127, 338);
+            panel1.TabIndex = 19;
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.FromArgb(192, 255, 255);
+            panel2.Controls.Add(txtPantalla);
+            panel2.Location = new Point(1, -1);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(546, 125);
+            panel2.TabIndex = 20;
+            // 
+            // panel3
+            // 
+            panel3.BackColor = Color.PaleTurquoise;
+            panel3.Controls.Add(bttn7);
+            panel3.Controls.Add(bttn8);
+            panel3.Controls.Add(bttn9);
+            panel3.Controls.Add(bttnSumar);
+            panel3.Controls.Add(bttnRestar);
+            panel3.Controls.Add(bttnIgual);
+            panel3.Controls.Add(bttnMultiplicar);
+            panel3.Controls.Add(bttnPunto);
+            panel3.Controls.Add(bttnDividir);
+            panel3.Controls.Add(bttn0);
+            panel3.Controls.Add(bttn4);
+            panel3.Controls.Add(bttn5);
+            panel3.Controls.Add(bttn3);
+            panel3.Controls.Add(bttn6);
+            panel3.Controls.Add(bttn2);
+            panel3.Controls.Add(bttn1);
+            panel3.Location = new Point(2, 124);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(425, 338);
+            panel3.TabIndex = 21;
             // 
             // Calculadora_Pro
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(0, 192, 192);
-            ClientSize = new Size(564, 491);
-            Controls.Add(bttnBorrar);
-            Controls.Add(bttnLimpiar);
-            Controls.Add(bttnDividir);
-            Controls.Add(bttnMultiplicar);
-            Controls.Add(bttnRestar);
-            Controls.Add(bttnSumar);
-            Controls.Add(bttnIgual);
-            Controls.Add(bttnPunto);
-            Controls.Add(bttn9);
-            Controls.Add(bttn8);
-            Controls.Add(bttn7);
-            Controls.Add(bttn6);
-            Controls.Add(bttn5);
-            Controls.Add(bttn4);
-            Controls.Add(bttn3);
-            Controls.Add(bttn2);
-            Controls.Add(bttn1);
-            Controls.Add(bttn0);
-            Controls.Add(txtPantalla);
+            ClientSize = new Size(550, 461);
+            Controls.Add(panel3);
+            Controls.Add(panel2);
+            Controls.Add(panel1);
             MaximizeBox = false;
             Name = "Calculadora_Pro";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Calcularoa_Pro";
             Load += Form1_Load;
+            panel1.ResumeLayout(false);
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
+            panel3.ResumeLayout(false);
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -307,5 +343,8 @@
         private Button bttnDividir;
         private Button bttnLimpiar;
         private Button bttnBorrar;
+        private Panel panel1;
+        private Panel panel2;
+        private Panel panel3;
     }
 }
