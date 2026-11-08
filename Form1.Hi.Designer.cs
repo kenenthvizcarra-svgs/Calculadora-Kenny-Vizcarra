@@ -68,7 +68,7 @@
             // bttn0
             // 
             bttn0.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            bttn0.Location = new Point(23, 266);
+            bttn0.Location = new Point(23, 258);
             bttn0.Name = "bttn0";
             bttn0.Size = new Size(77, 66);
             bttn0.TabIndex = 0;
@@ -78,7 +78,7 @@
             // bttn1
             // 
             bttn1.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            bttn1.Location = new Point(23, 184);
+            bttn1.Location = new Point(23, 178);
             bttn1.Name = "bttn1";
             bttn1.Size = new Size(77, 66);
             bttn1.TabIndex = 1;
@@ -88,7 +88,7 @@
             // bttn2
             // 
             bttn2.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            bttn2.Location = new Point(127, 184);
+            bttn2.Location = new Point(127, 178);
             bttn2.Name = "bttn2";
             bttn2.Size = new Size(77, 66);
             bttn2.TabIndex = 2;
@@ -98,7 +98,7 @@
             // bttn3
             // 
             bttn3.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            bttn3.Location = new Point(230, 184);
+            bttn3.Location = new Point(230, 178);
             bttn3.Name = "bttn3";
             bttn3.Size = new Size(77, 66);
             bttn3.TabIndex = 3;
@@ -168,7 +168,7 @@
             // bttnPunto
             // 
             bttnPunto.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            bttnPunto.Location = new Point(127, 266);
+            bttnPunto.Location = new Point(127, 259);
             bttnPunto.Name = "bttnPunto";
             bttnPunto.Size = new Size(77, 66);
             bttnPunto.TabIndex = 10;
@@ -179,7 +179,7 @@
             // bttnIgual
             // 
             bttnIgual.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            bttnIgual.Location = new Point(230, 266);
+            bttnIgual.Location = new Point(230, 259);
             bttnIgual.Name = "bttnIgual";
             bttnIgual.Size = new Size(77, 66);
             bttnIgual.TabIndex = 12;
@@ -191,7 +191,7 @@
             // 
             bttnSumar.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
             bttnSumar.ImageAlign = ContentAlignment.TopCenter;
-            bttnSumar.Location = new Point(335, 266);
+            bttnSumar.Location = new Point(335, 258);
             bttnSumar.Name = "bttnSumar";
             bttnSumar.Size = new Size(77, 66);
             bttnSumar.TabIndex = 13;
@@ -203,7 +203,7 @@
             // bttnRestar
             // 
             bttnRestar.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            bttnRestar.Location = new Point(335, 184);
+            bttnRestar.Location = new Point(335, 178);
             bttnRestar.Name = "bttnRestar";
             bttnRestar.Size = new Size(77, 66);
             bttnRestar.TabIndex = 14;
@@ -238,7 +238,7 @@
             // 
             bttnLimpiar.BackColor = Color.FromArgb(255, 192, 128);
             bttnLimpiar.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            bttnLimpiar.Location = new Point(24, 3);
+            bttnLimpiar.Location = new Point(21, 9);
             bttnLimpiar.Name = "bttnLimpiar";
             bttnLimpiar.Size = new Size(91, 150);
             bttnLimpiar.TabIndex = 17;
@@ -250,9 +250,9 @@
             // 
             bttnBorrar.BackColor = Color.Red;
             bttnBorrar.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            bttnBorrar.Location = new Point(21, 170);
+            bttnBorrar.Location = new Point(18, 178);
             bttnBorrar.Name = "bttnBorrar";
-            bttnBorrar.Size = new Size(94, 162);
+            bttnBorrar.Size = new Size(94, 154);
             bttnBorrar.TabIndex = 18;
             bttnBorrar.Text = "CE";
             bttnBorrar.UseVisualStyleBackColor = false;
